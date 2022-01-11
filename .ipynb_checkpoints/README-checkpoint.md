@@ -1,7 +1,7 @@
-# News Category Text Classfication
+# News Category Text Classification
 
 One popular text classification application is used in digital advertising for contextual targeting. <br>
-For contextual targeting, ads are placed based on the context of the news article, assuming that ads placed in a related context have a higher probability of being clicked on (higher click throuh rate). <br>
+For contextual targeting, ads are placed based on the context of the news article, assuming that ads placed in a related context have a higher probability of being clicked on (higher click through rate). <br>
 
 In this project we train several deep learning models to predict the news topic of an article from the raw text of the article. <br>
 
@@ -21,7 +21,7 @@ The raw dataset was downloaded from Kaggle. <br>
 Refer to below link for more details:
 <https://www.kaggle.com/rmisra/news-category-dataset> <br>
 
-For model training, we will use the combined text from the headline + short description, to try to predice the news category out of 41 different categories.
+For model training, we will use the combined text from the headline + short description, to try to predict the news category out of 41 different categories.
 
 For reference, below are a few samples from the dataset.
 
@@ -76,7 +76,7 @@ Below out of sample performance was achieved by the best model on the test set.
 | --------------------------------------------------------------- | -------------------- |
 | Model 4: Pre-trained word embeddings (BERT) + RNN (GRU) layers  | 0.667                |
 
-The model selected with the best Validation performance was the Model 4 (Pre-trained word embeddings (BERT) + RNN (GRU) layers), with an test set accuracy of 66.7%. <br>
+The model selected with the best Validation performance was the Model 4 (Pre-trained word embeddings (BERT) + RNN (GRU) layers), with a test set accuracy of 66.7%. <br>
 
 
 ## Appendix
